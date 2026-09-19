@@ -1,0 +1,186 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="se75D72ymHsI_DxN5yyQ">
+    <mxGraphModel dx="1814" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-51" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;" target="IAveVBQ_dbm9VW_HEOVX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-53" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="IAveVBQ_dbm9VW_HEOVX-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="205" />
+              <mxPoint x="440" y="452.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-54" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="IAveVBQ_dbm9VW_HEOVX-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="205" />
+              <mxPoint x="440" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-55" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="IAveVBQ_dbm9VW_HEOVX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-3" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="D7" vertex="1">
+          <mxGeometry relative="1" x="-0.7653" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-4" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Din" vertex="1">
+          <mxGeometry relative="1" x="0.7818" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-2" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="ESP32 C3 mini" vertex="1">
+          <mxGeometry height="150" width="120" x="540" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-29" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;" target="IAveVBQ_dbm9VW_HEOVX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-31" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="IAveVBQ_dbm9VW_HEOVX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-7" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GND" vertex="1">
+          <mxGeometry relative="1" x="0.8417" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-58" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#f9f7ed;strokeColor=#36393d;endArrow=none;endFill=0;" target="IAveVBQ_dbm9VW_HEOVX-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="175" />
+              <mxPoint x="460" y="92.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="TP4056" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-27" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;" target="IAveVBQ_dbm9VW_HEOVX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-8" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="+" vertex="1">
+          <mxGeometry relative="1" x="-0.6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-28" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#eeeeee;strokeColor=#36393d;" target="IAveVBQ_dbm9VW_HEOVX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-9" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="-" vertex="1">
+          <mxGeometry relative="1" x="-0.4286" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-25" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Batterie" vertex="1">
+          <mxGeometry height="160" width="60" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-30" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;" target="IAveVBQ_dbm9VW_HEOVX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="50" />
+              <mxPoint x="520" y="167.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-6" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5V" vertex="1">
+          <mxGeometry relative="1" x="0.746" y="-3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Switch" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-39" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#eeeeee;strokeColor=#36393d;" target="IAveVBQ_dbm9VW_HEOVX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-40" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#eeeeee;strokeColor=#36393d;" target="IAveVBQ_dbm9VW_HEOVX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-41" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#eeeeee;strokeColor=#36393d;" target="IAveVBQ_dbm9VW_HEOVX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-45" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="IAveVBQ_dbm9VW_HEOVX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="92.5" />
+              <mxPoint x="970" y="550" />
+              <mxPoint x="710" y="550" />
+              <mxPoint x="710" y="212.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-2" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="D5" vertex="1">
+          <mxGeometry relative="1" x="0.8864" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Left Switch #1" vertex="1">
+          <mxGeometry height="50" width="70" x="820" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-46" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#b1ddf0;strokeColor=#10739e;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="153" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Left Switch #2" vertex="1">
+          <mxGeometry height="50" width="70" x="820" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-43" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#b0e3e6;strokeColor=#0e8088;" target="IAveVBQ_dbm9VW_HEOVX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="252.5" />
+              <mxPoint x="940" y="510" />
+              <mxPoint x="750" y="510" />
+              <mxPoint x="750" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-1" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="D6" vertex="1">
+          <mxGeometry relative="1" x="0.8572" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Right Switch #1" vertex="1">
+          <mxGeometry height="50" width="70" x="820" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-44" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fillColor=#b1ddf0;strokeColor=#10739e;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Right Switch #2" vertex="1">
+          <mxGeometry height="50" width="70" x="820" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-52" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;" target="IAveVBQ_dbm9VW_HEOVX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-56" edge="1" parent="1" source="IAveVBQ_dbm9VW_HEOVX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="IAveVBQ_dbm9VW_HEOVX-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="452.5" />
+              <mxPoint x="610" y="540" />
+              <mxPoint x="590" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQzEgubJKcVm_XTdYdsk-5" connectable="0" parent="IAveVBQ_dbm9VW_HEOVX-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dout" vertex="1">
+          <mxGeometry relative="1" x="-0.3714" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Led #1" vertex="1">
+          <mxGeometry height="70" width="70" x="520" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IAveVBQ_dbm9VW_HEOVX-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Led #2" vertex="1">
+          <mxGeometry height="70" width="70" x="520" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
