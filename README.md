@@ -6,7 +6,7 @@ It acts as a **Bluetooth HID keyboard** and can be used with an iPad, tablet or 
 
 The enclosure and pedal parts are designed to be **3D printed**.
 
-![PageStomp Pedal](img/IMG_8120.jpeg)
+<img src="img/IMG_8120.jpeg" alt="PageStomp Pedal" width="50%">
 
 ---
 
@@ -105,7 +105,7 @@ The two switches of one pedal are wired in parallel so that pressing either swit
 
 ![wiring](hardware/draw.drawio.svg)
 
-![PageStomp wiring](images/IMG_8119.jpeg)
+![PageStomp wiring](img/IMG_8119.jpeg)
 
 ---
 
