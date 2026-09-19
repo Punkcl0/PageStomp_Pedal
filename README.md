@@ -193,7 +193,7 @@ It was designed primarily for sheet music and tablature applications such as:
 The repository contains the files required to print the pedal enclosure.
 I used PETG because it offers better mechanical strength and heat resistance than PLA, which can be useful if the PageStomp Pedal is left inside a car during summer. PLA should nevertheless work fine for normal indoor use.
 
-**MakerWorld link:** _coming soon_
+[MakerWorld link](https://makerworld.com/fr/models/3328558-pagestomp-pedal#profileId-3780158)
 
 ---
 
