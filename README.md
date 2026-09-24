@@ -63,6 +63,17 @@ Each pedal is illuminated by two LEDs.
 
 At startup, a short purple animation indicates that the controller has powered on.
 
+After startup, the left pedal slowly breathes purple and the right pedal slowly breathes light green, making them easy to identify in dark environments. It's a better way for knowing that the pedal is `ON`.
+
+### LED status summary
+
+| State | Left pedal | Right pedal |
+|---|---|---|
+| Startup | Purple animation | Purple animation |
+| Idle / powered on | Breathing purple | Breathing light green |
+| Short press | White flash | White flash |
+| Long press | Blue flash | Blue flash |
+
 ### Short press
 
 A short button press briefly illuminates the corresponding pedal in white.

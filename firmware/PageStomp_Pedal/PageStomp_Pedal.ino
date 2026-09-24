@@ -31,6 +31,9 @@ Button2 leftBt;    //Left button object
 Button2 rightBt;   //Right button object
 
 //Configuration
+
+constexpr unsigned int LONG_CLICK_DELAY = 1500; //Time in ms for detect a long clic from a short clic
+
 struct ConfigBouton {
   uint8_t appuiCourt;
   uint8_t appuiLong;
@@ -96,6 +99,54 @@ void longPress(int firstLed, int wait = 500) {
   strip.show();
 }
 
+void haloDisplay() {
+
+  static uint8_t brightness = 10;
+  static int8_t direction = 1;
+  static unsigned long lastUpdate = 0;
+
+  if (millis() - lastUpdate < 20) {
+    return;
+  }
+
+  lastUpdate = millis();
+
+  brightness += direction;
+
+  if (brightness >= 70) {
+    brightness = 70;
+    direction = -1;
+  }
+
+  if (brightness <= 10) {
+    brightness = 10;
+    direction = 1;
+  }
+
+  // Left button - soft purple
+  uint32_t leftColor = strip.Color(
+    brightness / 2,
+    0,
+    brightness
+  );
+
+  // Right button - pale green
+  uint32_t rightColor = strip.Color(
+    brightness / 3,
+    brightness,
+    brightness / 3
+  );
+
+  strip.setPixelColor(0, leftColor);
+  strip.setPixelColor(1, leftColor);
+
+  strip.setPixelColor(2, rightColor);
+  strip.setPixelColor(3, rightColor);
+
+  strip.show();
+}
+
+
 //******************//
 // Helpers
 //******************//
@@ -146,7 +197,10 @@ void setup() {
   leftBt.setLongClickHandler(leftLongClick);
   rightBt.setLongClickHandler(rightLongClick);
 
-  Serial.println("Starting BLE keyboard...");
+  leftBt.setLongClickTime(LONG_CLICK_DELAY);
+  rightBt.setLongClickTime(LONG_CLICK_DELAY);
+
+  //Serial.println("Starting BLE keyboard..."); //Uncomment for debug
   keyboard.begin();
 
   strip.begin(); // Initialize NeoPixel strip object (REQUIRED)
@@ -165,5 +219,7 @@ void loop() {
 
   leftBt.loop();
   rightBt.loop();
+
+  haloDisplay(); //Lights on
 
 }
